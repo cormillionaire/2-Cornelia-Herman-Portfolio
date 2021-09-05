@@ -38,3 +38,6 @@ THEN I am presented with a responsive layout that adapts to my viewport
 
 ## Credits
 Referenced for help with flex-boxes: https://www.youtube.com/watch?v=fYq5PXgSsbE&list=LL&index=14&t=87s
+Referenced for help with text wrap: https://stackoverflow.com/questions/15209389/wrapping-text-around-an-image-with-indentation-and-justify
+Referenced for the text over the image: https://www.w3schools.com/howto/howto_css_image_text.asp
+Help from the Discord group (A few shout outs to Nando Davila, Sean O'Very, Baylor)
