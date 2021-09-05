@@ -13,8 +13,6 @@
 * {
     font-size: 16px;
     font-family: Helvetica, sans-serif;
-    padding: 5 px;
-    margin: 5px;
   }
 
 body {
@@ -79,6 +77,12 @@ a:hover {
     font-size: 110%;
 }
 
+  .profile {
+  width: var(--small);
+  height: var(--small);
+  padding: 10px;
+  margin: 10px;
+  }
 
   .otherWork {
     display: flex;
@@ -86,16 +90,23 @@ a:hover {
     justify-content: center;
     align-items: stretch;
     align-content: space-between;
+    padding: 10px;
+    margin: 10px;
     }
 
-.otherWork img:hover {
+  .otherWork img:hover {
   filter: saturate(250%);
   border: solid transparent 10px;
-}
+  }
 
-  .profile {
-    width: var(--small);
-    height: var(--small);
+  .projectName {
+    position: absolute;
+    background: var(--light);
+    font-weight: bold;
+    font: var(--dark);
+    right: 300px;
+    bottom: 50px;
+
   }
 
   .small {
@@ -150,6 +161,16 @@ footer p {
       flex-direction: column;
     }
 
+    header {
+      display: flex;
+      flex-direction: column;
+      align-content: center;
+    }
+    
+    nav ul{
+      flex-direction: column;
+      text-align: center;
+    }
     .contact {
       display: flex;
       justify-content: flex-start;
@@ -161,10 +182,11 @@ footer p {
       flex-direction: column;
     }
 
-    .medium {
-      width: var(--large);
-      height: var(--large);
+    .large {
+      width: var(--medium);
+      height: var(--medium);
     }
+    
 
     .separator {
       display:none;
@@ -187,6 +209,7 @@ footer p {
       flex-direction: column;
       align-content: center;
     }
+
     nav ul{
       flex-direction: column;
       text-align: center;

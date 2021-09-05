@@ -37,3 +37,4 @@ THEN I am presented with a responsive layout that adapts to my viewport
 
 
 ## Credits
+Referenced for help with flex-boxes: https://www.youtube.com/watch?v=fYq5PXgSsbE&list=LL&index=14&t=87s
