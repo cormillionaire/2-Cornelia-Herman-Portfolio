@@ -5,18 +5,13 @@ Portfolio to exemplify skills to a potential employer
 This is for 2-Advanced-CSS-Portfolio
 
 ### User Story
-
 ```
 AS AN employer
 I WANT to view a potential employee's deployed portfolio of work samples
 SO THAT I can review samples of their work and assess whether they're a good candidate for an open position
 ```
 
-
 ### Acceptance Criteria
-
-Here are the critical requirements necessary to develop a portfolio that satisfies a typical hiring manager’s needs:
-
 ```
 GIVEN I need to sample a potential employee's previous work
 WHEN I load their portfolio
@@ -34,10 +29,17 @@ THEN I am presented with a responsive layout that adapts to my viewport
 ```
 
 ## Usage
+This is the beginning of a portfolio to show off what skills I've learned in the bootcamp and actually put to work. 
+The first iteration of this encompasses advanced CSS as well as basic HTML. As I learn more, this will give opportunities to expand the functions of my portfolio.
 
+Currently, there are place holders where the projects will be.
+
+The header anchors navigate to the appropriate place on the page
+It is responsive with built in breakpoints at 768 and 480. Around 280 is where its not really supported (will work but looks kinda weird). This was an intentional choice as its an edge case that someone would view at that width (or less).
 
 ## Credits
 Referenced for help with flex-boxes: https://www.youtube.com/watch?v=fYq5PXgSsbE&list=LL&index=14&t=87s
 Referenced for help with text wrap: https://stackoverflow.com/questions/15209389/wrapping-text-around-an-image-with-indentation-and-justify
 Referenced for the text over the image: https://www.w3schools.com/howto/howto_css_image_text.asp
 Help from the Discord group (A few shout outs to Nando Davila, Sean O'Very, Baylor)
+Wireframe for desktop view: https://drive.google.com/file/d/17I8SKR3u1BYhYNEGcKvYyOsw5b7yoH4z/view?usp=sharing

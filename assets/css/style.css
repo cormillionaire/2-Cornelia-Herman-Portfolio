@@ -80,6 +80,7 @@ a:hover {
     display: flex;
     margin: 50px;
   }
+
 /* This line makes the text wrap around my profile image so it will look ok as more text is added */
   .content p {
     text-align: justify;
@@ -95,7 +96,7 @@ a:hover {
     margin: 0 10px 10px 0;
   }
 
-  .otherWork {
+  .work {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -106,21 +107,14 @@ a:hover {
 
     }
 
-  .otherWork img:hover {
+  .work img:hover {
   filter: saturate(250%);
   border: solid transparent 10px;
   }
 
 
-/* Project names and text styles */
+/* Project titles and text styles */
   .projectName {
-    position: relative;
-    width: 100%;
-    flex-grow: 0, 1, 0;
-    margin: 2%;
-  }
-  
-  .container {
     position: relative;
     text-align: center;
   }
@@ -139,6 +133,7 @@ a:hover {
 
   }
 
+/* Image classes for projects with flex-box item attributes */
   .small {
   max-height: var(--small);
   max-width: var(--small);
@@ -159,6 +154,7 @@ a:hover {
   .large {
   height: var(--large);
   width: var(--large);
+  margin: 3%;
   }
 
 
@@ -245,7 +241,7 @@ footer p {
       align-content: flex-start;
     }
 
-    .otherWork {
+    .work {
       display: flex;
       flex-direction: column;
       align-content: center;
