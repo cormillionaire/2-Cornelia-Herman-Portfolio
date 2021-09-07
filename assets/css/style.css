@@ -58,6 +58,10 @@ nav a {
     text-decoration: none;
   }
 
+hr {
+  margin: 2%;
+}
+
 img {
     border-radius: var(--image);
     padding: 10px;
