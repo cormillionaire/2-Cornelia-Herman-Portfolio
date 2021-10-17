@@ -1,8 +1,7 @@
 # 2-Cornelia-Portfolio
-## What this is
-Portfolio to exemplify skills to a potential employer
 
-This is for 2-Advanced-CSS-Portfolio
+## What this is
+This is Cornelia Herman's Portfolio. It exmplifies my skillset to a potential employer.
 
 ### User Story
 ```
@@ -36,6 +35,9 @@ Currently, there are place holders where the projects will be.
 
 The header anchors navigate to the appropriate place on the page
 It is responsive with built in breakpoints at 768 and 480. Around 280 is where its not really supported (will work but looks kinda weird). This was an intentional choice as its an edge case that someone would view at that width (or less).
+
+## Resources
+
 
 ## Credits
 Referenced for help with flex-boxes: https://www.youtube.com/watch?v=fYq5PXgSsbE&list=LL&index=14&t=87s
