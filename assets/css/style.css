@@ -8,7 +8,7 @@
   --small: 250px;
   --medium: 375px;
   --large: 600px;
-  }
+}
 
 * {
   font-size: 16px;
@@ -18,7 +18,7 @@
 body {
   line-height: 1.3;
 }
-  
+
 header {
   display: flex;
   justify-content: space-between;
@@ -37,7 +37,8 @@ h2 {
   padding: 1%;
   margin: 2%;
   font-size: 180%;
-  }
+  color: var(--dark);
+}
 
 #contact a {
   text-decoration: none;
@@ -110,12 +111,13 @@ nav a:hover {
   text-align: justify;
   line-height: 25px;
   padding: 7px;
+  color: var(--dark);
 }
 
 /* The float is needed to make the wrap work and the margin is needed to separate from the text */
 .profile {
-  width: var(--small);
-  height: var(--small);
+  width: 150px;
+  height: 150px;
   float: left;
   margin: 0 10px 10px 0;
 }
@@ -137,50 +139,47 @@ nav a:hover {
 
 
 /* Project titles and text styles */
-  .projectName {
-    position: relative;
-    text-align: center;
-  }
+.projectName {
+  position: relative;
+  text-align: center;
+}
 
-  .projectTitle {
-    position: absolute;
-    top: 90%;
-    left: 70%;
-    transform: translate(-50%, -50%);
-    background: var(--dark);
-    opacity: 0.75;
-    font-weight: bolder;
-    font-size: 20px;
-    color: var(--light);
-    padding: 10px;
-
-  }
+.projectTitle {
+  position: absolute;
+  top: 90%;
+  left: 70%;
+  transform: translate(-50%, -50%);
+  background: var(--dark);
+  opacity: 0.75;
+  font-weight: bolder;
+  font-size: 20px;
+  color: var(--light);
+  padding: 10px;
+}
 
 /* Image classes for projects with flex-box item attributes */
-  .small {
+.small {
   max-height: var(--small);
   max-width: var(--small);
   flex: 2, 2, 0;
   align-self: center;
   margin: 2%;
-  }
+}
 
-  .medium {
+.medium {
   max-height: var(--medium);
   max-width: var(--medium);
   flex: 1, 1, 0;
   align-self: center;
   margin: 2%;
-  }
+}
 
 /* Highlighted project */
-  .large {
+.large {
   height: var(--large);
   width: var(--large);
   margin: 3%;
-  }
-
-
+}
 
 footer {
   display:flex;
@@ -193,7 +192,7 @@ footer {
   margin: 0;
   padding: 0;
   height: 80px;
-  }
+}
 
 footer p {
   padding: 1%;
