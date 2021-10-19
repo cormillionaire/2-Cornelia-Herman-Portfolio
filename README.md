@@ -1,4 +1,7 @@
 # 2-Cornelia-Portfolio
+
+https://cormillionaire.github.io/Cornelia-Herman-Portfolio/
+
 This is Cornelia Herman's Portfolio top show off my skill set. In addition to that, it has my contact information and resume so potential employers have everything they need to assess and communicate.
 
 ![alt text](./assets/images/Portfolio_Cornelia.gif)
