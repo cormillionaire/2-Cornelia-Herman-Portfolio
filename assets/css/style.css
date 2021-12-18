@@ -37,13 +37,15 @@ h2 {
   padding: 1%;
   margin: 2%;
   font-size: 180%;
-  color: var(--dark);
+  color: var(--light);
+  background: var(--secondary-color);
 }
 
 #contact a {
   text-decoration: none;
   color: var(--dark);
   font-weight: bold;
+  font-size: 150%;
 }
 
 nav ul {
@@ -87,7 +89,6 @@ img {
   display:flex;
   justify-content: space-around;
   text-align: center;
-  font-size: 200%;
 }
 
 nav a:hover {
@@ -97,7 +98,7 @@ nav a:hover {
 
 #contact a:hover {
   font-style: italic;
-  font-size: 110%;
+  font-size: 200%;
 }
 
 
@@ -106,20 +107,32 @@ nav a:hover {
   margin: 50px;
 }
 
+.content {
+  display: flex;
+}
+
 /* This line makes the text wrap around my profile image so it will look ok as more text is added */
-.content p {
+.aboutMeText {
   text-align: justify;
+  flex-direction: row;
+  flex: 0 0 1;
   line-height: 25px;
-  padding: 7px;
+  padding: 10px;
   color: var(--dark);
+}
+
+.aboutMeText p {
+  padding: 10px;
 }
 
 /* The float is needed to make the wrap work and the margin is needed to separate from the text */
 .profile {
-  width: 150px;
-  height: 150px;
+  flex: 0 0 1;
   float: left;
   margin: 0 10px 10px 0;
+  max-width: 300px;
+  max-height: 300px;
+  object-fit: cover;
 }
 
 .work {
@@ -155,6 +168,7 @@ nav a:hover {
   font-size: 20px;
   color: var(--light);
   padding: 10px;
+  border-radius: var(--image);
 }
 
 /* Image classes for projects with flex-box item attributes */
